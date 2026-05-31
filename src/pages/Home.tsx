@@ -92,9 +92,9 @@ const Manifesto = () => (
       initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={sectionVariants}
       className="text-[28px] md:text-[40px] lg:text-[48px] font-medium tracking-tight leading-[1.05] max-w-[1400px] mb-24 md:mb-32"
     >
-      <motion.span variants={itemVariants}>We are a digital agency. Not just execution, not isolated services. </motion.span>
-      <motion.span variants={itemVariants}>We provide brand direction, advanced tech, performance marketing and system integration as one connected approach. </motion.span>
-      <motion.span variants={itemVariants}>An end-to-end ecosystem designed to scale, perform and integrate seamlessly with existing platforms.</motion.span>
+      <motion.span variants={itemVariants}>From concept to launch, we create smart digital solutions that bring ideas to life. </motion.span>
+      <motion.span variants={itemVariants}>By combining strategy, design, and modern development, we build products that are visually engaging, user-focused, and built to perform. </motion.span>
+      <motion.span variants={itemVariants}>Every project is crafted to solve real problems, elevate your brand, and deliver meaningful results in the digital world. </motion.span>
     </motion.h2>
 
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-8 mt-24">
@@ -120,15 +120,15 @@ const Manifesto = () => (
         </div>
       </div>
       <div className="lg:col-span-4 lg:pl-16 flex flex-col justify-end">
-        <h3 className="text-[10px] uppercase font-bold tracking-widest text-black/40 mb-8">Est. 2026</h3>
+        {/* <h3 className="text-[10px] uppercase font-bold tracking-widest text-black/40 mb-8">Est. 2026</h3> */}
         <p className="text-sm font-semibold leading-relaxed mb-6 text-[#111]">
-          Every project is already in motion. Processes, people, numbers, decisions. Our job isn't to sit on top of it. It's to step inside.
+          We turn ideas into striking digital experiences that instantly capture attention and leave a lasting impression. Every detail is crafted with intention, blending creativity and strategy to create interactions that feel effortless and memorable.
         </p>
         <p className="text-xs text-black/60 leading-relaxed mb-6 font-medium">
-          We work alongside teams, read the business, identify where energy is being lost and where it needs to be amplified. We don't operate in silos: design, technology and marketing move together, because that's how growth becomes sustainable.
+          We go beyond visuals. Crafting smooth, impactful experiences built to perform, with clarity, consistency, and modern design at the core.
         </p>
         <p className="text-xs text-black/60 leading-relaxed font-medium">
-          With in-house teams collaborating in real time, we reduce friction, align decisions and turn complexity into structure. We don't add noise. We bring direction.
+          From bold ideas to refined execution, we help brands stand out with confidence, delivering work that feels fresh, polished, and engaging.
         </p>
       </div>
     </div>
@@ -142,11 +142,10 @@ const FadingText = () => (
       className="text-[40px] md:text-[6vw] leading-[0.9] font-bold tracking-tighter uppercase"
     >
       <motion.div variants={itemVariants} className="text-[#111]">INNOVATION IS CONNECTION.</motion.div>
-      <motion.div variants={itemVariants} className="text-black/80">WE BRIDGE THE GAP</motion.div>
-      <motion.div variants={itemVariants} className="text-black/60">BETWEEN COMPLEX</motion.div>
-      <motion.div variants={itemVariants} className="text-black/40">INFRASTRUCTURE AND</motion.div>
-      <motion.div variants={itemVariants} className="text-black/20">HUMAN EXPERIENCE TO TURN</motion.div>
-      <motion.div variants={itemVariants} className="text-black/10">VISION INTO MOMENTUM.</motion.div>
+      <motion.div variants={itemVariants} className="text-black/80">WE BRING IDEAS & EXECUTION,</motion.div>
+      <motion.div variants={itemVariants} className="text-black/60">TRANSFORMING VISION</motion.div>
+      <motion.div variants={itemVariants} className="text-black/40">INTO SEAMLESS, IMPACTFUL</motion.div>
+      <motion.div variants={itemVariants} className="text-black/20">DIGITAL EXPERIENCES.</motion.div>
     </motion.h2>
   </section>
 );
